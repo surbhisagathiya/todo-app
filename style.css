@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+
+body {
+    background-image: linear-gradient(to right, #8cf1f8, #99f77d);
+}
+.container {
+    width: 95%;
+    margin: auto;
+}
+.inputTask {
+    margin-top: 20px;
+    padding: 13px;
+    border: 1px solid lightgray;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 25px;
+}
+.inputTask:focus {
+    box-shadow: 0 0 5px #e22865;
+    border: 1px solid #e22865;
+}
+
+.search {
+    margin-left: 295px;
+    border-radius: 10px;
+}
+.searchinput {
+    padding: 6px;
+    border: none;
+    border-radius: 6px;
+    width: 205px;
+}
+
+.red {
+    color: lightcoral;
+}
+.green {
+    color: lightgreen;
+}
+.blue {
+    color: skyblue;
+}
+
+.list-group {
+    font-size: 1.2rem;
+}
+.nav-link {
+    font-weight: bold;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+#itemForm h2 {
+    font-family: "Libre Baskerville", cursive;
+    color: blue;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    .inputTask {
+        width: 84%;
+    }
+    .container {
+        width: 95%;
+    }
+    .search {
+        /* border: 1px solid red; */
+        margin-left: auto;
+        /* padding: 8px; */
+    }
+    .searchinput {
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .inputTask {
+        width: 74%;
+    }
+    .container {
+        width: 90%;
+    }
+    .search {
+        /* border: 1px solid red; */
+        margin-left: -1px;
+        padding: 8px;
+    }
+    .searchinput {
+        width: 275px ;
+    }
+}
+
+@media (max-width: 339px) {
+    .container {
+        width: 82%;
+    }
+    .inputTask {
+        width: 67%;
+    }
+    .search {
+        /* border: 1px solid black; */
+        margin-left: 7px;
+        padding: 5px;
+    }
+    .searchinput {
+        width: 250px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        width: 90%;
+    }
+    .inputTask {
+        width: 60%;
+    }
+}
+
+@media (max-width: 340px) {
+    .container {
+        width: 95%;
+    }
+    .inputTask {
+        width: 60%;
+    }
+    .search {
+        /* border: 1px solid black; */
+        margin-left: 3px;
+        padding: 5px;
+    }
+    .searchinput {
+        width: 250px;
+    }
+}
+
+@media (max-width: 286px) {
+    .container {
+        width: 100%;
+    }
+    .inputTask {
+        width: 67%;
+    }
+    .search {
+        /* border: 1px solid red; */
+        margin-left: 1px;
+        padding: 8px;
+    }
+    .searchinput {
+        width: 220px;
+    }
+}
